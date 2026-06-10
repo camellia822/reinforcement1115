@@ -1,4 +1,18 @@
 # DRL Peg-in-Hole UR5
+## 来源说明 / Acknowledgement
+
+本仓库基于以下开源项目进行复现与改进：
+
+- 原始仓库：https://github.com/leesweqq/DRL_Peg-in-Hole_UR5
+- 原作者：leesweqq
+- 原始许可证：MIT License
+
+原项目提供了一个基于 PyBullet 的 UR5 轴孔装配强化学习环境，主要采用视觉输入完成 peg-in-hole 任务。本仓库在原项目基础上用于学术研究复现与后续改进，例如加入力/力矩观测、修改环境观测空间、奖励函数和强化学习算法结构等。
+
+本仓库保留原项目的版权声明和开源许可证说明，后续修改内容仅用于学术研究。
+
+
+
 
 基于 PyBullet、Gymnasium 和 Stable-Baselines3 的 UR5 机械臂 peg-in-hole 深度强化学习项目。项目模拟一个带末端圆柱 peg 和 eye-in-hand 相机的 UR5 机械臂，通过视觉观测和连续位移动作完成插孔任务。
 
@@ -166,3 +180,14 @@ plot_reward_data()
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+## Acknowledgement / Attribution
+
+This repository is a modified version of the original project:
+
+- Original repository: https://github.com/leesweqq/DRL_Peg-in-Hole_UR5
+- Original author: leesweqq
+- Original license: MIT License
+
+The original project provides a PyBullet-based UR5 peg-in-hole reinforcement learning environment using visual input. This repository is used for reproduction and further academic research modifications, including force/torque observation integration, environment modification, reward redesign, and reinforcement learning algorithm improvement.
+
+The original copyright and license notices are retained.
